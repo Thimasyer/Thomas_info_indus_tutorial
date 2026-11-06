@@ -37,7 +37,7 @@ jobs:
             cd ../..
       - name: Create commit
         run: |
-            https://github.com/YohannAuan/info_indus_tutorial.git
+            git clone https://github.com/YohannAuan/info_indus_tutorial.git
             mkdir -p gh-pages/docs/
             cp -r ./doc/sphinx/build/html/* gh-pages/
             cd gh-pages
